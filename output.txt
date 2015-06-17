@@ -1,0 +1,193 @@
+
+---------------------- A E S - E N C R Y P T I O N ----------------------
+
+
+----------------- Step 1: Preprocessing! ----------------
+
+Input Text:
+ENCRYPT THIS MESSAGE USING THE ALGORITHM DESCRIBED BELOW.
+
+Output Text:
+ENCRYPTTHISMESSAGEUSINGTHEALGORITHMDESCRIBEDBELOW
+
+----------------- Step 2: Substitution! -----------------
+
+Key:
+SJDHENDKANDERHDT
+
+Input Text:
+ENCRYPTTHISMESSAGEUSINGTHEALGORITHMDESCRIBEDBELOW
+
+Output Text:
+WWFYCCWDHVVQVZVTYNXZMAJDHRDPXVUBLQPKIFFBIOHHSLOHO
+
+-------------------- Step 3: Padding! -------------------
+
+Input:
+WWFY
+CCWD
+HVVQ
+VZVT
+
+YNXZ
+MAJD
+HRDP
+XVUB
+
+LQPK
+IFFB
+IOHH
+SLOH
+
+O
+
+Output:
+WWFY
+CCWD
+HVVQ
+VZVT
+
+YNXZ
+MAJD
+HRDP
+XVUB
+
+LQPK
+IFFB
+IOHH
+SLOH
+
+OAAA
+AAAA
+AAAA
+AAAA
+
+
+------------------ Step 4: ShiftRows! -------------------
+
+Input:
+WWFY
+CCWD
+HVVQ
+VZVT
+
+YNXZ
+MAJD
+HRDP
+XVUB
+
+LQPK
+IFFB
+IOHH
+SLOH
+
+OAAA
+AAAA
+AAAA
+AAAA
+
+
+
+Output:
+WWFY
+CWDC
+VQHV
+TVZV
+
+YNXZ
+AJDM
+DPHR
+BXVU
+
+LQPK
+FFBI
+HHIO
+HSLO
+
+OAAA
+AAAA
+AAAA
+AAAA
+
+
+------------------ Step 5: Parity Bit! ------------------
+
+Input:
+WWFY
+CWDC
+VQHV
+TVZV
+YNXZ
+AJDM
+DPHR
+BXVU
+LQPK
+FFBI
+HHIO
+HSLO
+OAAA
+AAAA
+AAAA
+AAAA
+
+Output (in hexadecimal):
+d7 d7 c6 59 
+c3 d7 44 c3 
+56 d1 48 56 
+d4 56 5a 56 
+59 4e d8 5a 
+41 ca 44 4d 
+44 50 48 d2 
+42 d8 56 55 
+cc d1 50 4b 
+c6 c6 42 c9 
+48 48 c9 cf 
+48 53 cc cf 
+cf 41 41 41 
+41 41 41 41 
+41 41 41 41 
+41 41 41 41 
+
+------------------ Step 6: MixColumns! ------------------
+
+Input:
+d7 d7 c6 59 
+c3 d7 44 c3 
+56 d1 48 56 
+d4 56 5a 56 
+59 4e d8 5a 
+41 ca 44 4d 
+44 50 48 d2 
+42 d8 56 55 
+cc d1 50 4b 
+c6 c6 42 c9 
+48 48 c9 cf 
+48 53 cc cf 
+cf 41 41 41 
+41 41 41 41 
+41 41 41 41 
+41 41 41 41 
+
+Output (in hexadecimal):
+69 50 49 ec 
+64 5c cc 68 
+df 43 fc cc 
+44 c8 e9 d2 
+77 51 79 e4 
+55 e9 de f8 
+56 57 f6 57 
+6a e3 d3 db 
+d2 f3 63 d6 
+cb cd 58 47 
+42 72 d4 4d 
+51 40 f8 5e 
+46 41 41 41 
+cf 41 41 41 
+cf 41 41 41 
+c8 41 41 41 
+
+Message finished encrypting! Thank you!
+
+
+-----------------THANK YOU! Exiting encryption program..-----------------
+
